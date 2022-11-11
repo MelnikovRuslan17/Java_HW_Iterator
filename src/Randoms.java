@@ -13,7 +13,7 @@ public class Randoms implements Iterable<Integer> {
     }
 
     public int genInt() {
-        return (int) (Math.random() * (max - min) +2 ) + min; //подходит и +1
+        return (int) (Math.random() * (max - min) +2 ) + min;
     }
 
     @Override
